@@ -1,11 +1,11 @@
 ## Structure  
-**Data/:** Contains experimental data files.
+- **Data/:** Contains experimental data files.
 
-**Test_Delegation_Functionality/:** Holds test files for delegation functionality.
+  **Test_Delegation_Functionality/:** Holds test files for delegation functionality.
 
-**Python_Files/:** Contains a Jupyter Notebook (.ipynb file) that demonstrates delegation experiments with varying OP token amounts and tracks the resulting changes in CPI.
+- **Python_Files/:** Contains a Jupyter Notebook (.ipynb file) that demonstrates delegation experiments with varying OP token amounts and tracks the resulting changes in CPI.
 
-**delegation/:** The virtual environment used for this project. Dependencies are listed in requirements.txt.
+- **delegation/:** The virtual environment used for this project. Dependencies are listed in requirements.txt.
 
 ## Prerequisites  
 To use this project, you need:  
@@ -20,10 +20,10 @@ Python 3.x installed
    `python -m venv delegation`  
 
 **3. Activate Virtual Environment:**  
-  On **Windows**:  
+  - On **Windows**:  
     `delegation\Scripts\activate`  
     
-  On **macOS/Linux**:  
+  - On **macOS/Linux**:  
     `source delegation/bin/activate`  
 
 **4. Install Dependencies:**  
